@@ -17,12 +17,12 @@ const AboutMe = () => {
             <div className="about-me_description">
               <p className="description__paragraph p-3">
                 Enthusiastic and a Self Learnt Web Developer, I code Simple yet
-                Elegant Web Pages. Followed by my bachelors in Electrical and
+                Elegant Web Pages. Followed by my bachelors degree in Electrical and
                 Electronics Engineering from{" "}
                 <b className="fw-bolder">Amrita Vishwa Vidyapeetam</b>, In the
-                later part of my Journey there by some means i gradually
+                later part of my journey there by some means I gradually
                 developed my interest towards learning the basics of frontend
-                design which just started with HTML5,later pickedup the pace
+                design which just started with HTML5,later picked up the pace
                 with CSS3, Javascript and Bootstrap which furtherly enabled me
                 to gain corporate experience at{" "}
                 <a href="http://audreeinfotech.com/">

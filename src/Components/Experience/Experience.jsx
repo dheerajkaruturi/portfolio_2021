@@ -23,10 +23,10 @@ const Experience = () => {
             <p>
               Worked as Junior software Designer for good 1 Year at Audree
               Infotech Pvt Ltd which is the Subsidiary of HETERO DRUGS .The
-              Initial pull would start with having a project design plan
+              initial pull would start with having a project design plan
               discussion with Quality Assurance team along client if required,
-              then from creating Mockups followed by Sprint changes to Designing
-              the whole set of Application and to checkup on the Pre production
+              then from creating Mockups followed by sprint changes to Designing
+              the whole set of application and to checkup on the Pre production
               impacts inturn making sure to deliver on time . Projects I have
               worked on are APQR, Batch Process, Quality Metrics, LIMS(major
               contribution), DMS, MTS, LMS. Working with LIMS has been the major

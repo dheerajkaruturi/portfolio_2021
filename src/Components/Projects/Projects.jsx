@@ -20,7 +20,7 @@ const Projects = () => {
         <div className="row">
           <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xxl-12">
             <p className="projects-section__intro">
-              These below have been developed while learning Frontend
+              These below projects, have been developed while learning Frontend
               development through multiple sources using modern techniques which
               includes Responsive Web Design, React Applications and UI/UX
               Design Approaches.

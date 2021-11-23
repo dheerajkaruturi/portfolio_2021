@@ -24,7 +24,7 @@ const Home = () => {
             <p className="hero-intro_welcome">
               <span>"</span>Design doesn’t mean that every person {"[is]"} gonna
               like, love it, but that’s the creativity of {"[an]"} eye which
-              creates something different'.<span>"</span>
+              creates something different.<span>"</span>
             </p>
             <h2>Greetings👋🏼, I'm</h2>
             <h1 className="hero-name">Sai Dheeraj Karuturi,</h1>
