@@ -1,0 +1,38 @@
+.experience-section {
+  margin-top: 2rem;
+}
+.experience-section::before {
+  margin-top: 2rem;
+}
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.section-title::after {
+  content: "";
+  background-color: #f10956;
+  display: block;
+  height: 2px;
+  width: 4rem;
+}
+.section-title span {
+  font-size: 3.15rem;
+}
+
+.experience-img__working {
+  width: 90%;
+  height: auto;
+  vertical-align: middle;
+  margin-top: 1.75rem;
+}
+.experience-description{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.experience-description p{
+    font-size: 0.9rem;
+    margin-top: 0rem;
+    word-spacing: 2px;
+    line-height: 1.50rem;
+}

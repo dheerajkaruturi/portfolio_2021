@@ -1,25 +1,36 @@
-import logo from './logo.svg';
+import React, { useContext } from "react";
 import './App.css';
+import { ThemeContext } from "./Context";
+import Navbar from "./Components/NavBar/Navbar.jsx";
+import Toggle from "./Components/NavBar/DarkModeToggle/Toggle";
+import Home from "./Components/Home/Home.jsx";
+import AboutMe from "./Components/AboutMe/AboutMe.jsx";
+import Projects from "./Components/Projects/Projects.jsx";
+import Experience from "./Components/Experience/Experience.jsx";
+import Resources from "./Components/Resources/Resources.jsx";
+import Footer from "./Components/Contact/Footer.jsx";
 
-function App() {
+const App = () => {
+
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className='wrapper__div' style={{ backgroundColor: darkMode ? '#121212' : '#f7f7f7', color: darkMode ? '#f7f7f7' : '#2c2c2c'}}>
+      <header>
+        <Navbar />
       </header>
+      <Toggle />
+      <div className="container">
+        <Home />
+        <AboutMe />
+        <Projects />
+        <Experience />
+        <Resources />
+      </div>
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;

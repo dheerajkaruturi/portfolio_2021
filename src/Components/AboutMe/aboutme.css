@@ -1,0 +1,76 @@
+.about-me__section {
+  margin-top: 2rem;
+}
+.section-title {
+  font-size: 2rem;
+}
+.section-title::before {
+  margin-top: 2.75rem !important;
+}
+.section-title::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 4rem;
+  background-color: #f10956;
+}
+.section-title span {
+  font-size: 3.15rem;
+  color: #f10956;
+}
+.description__paragraph {
+  font-size: 0.85rem;
+}
+.aboutMe-card__svg img {
+  width: 75%;
+  height: auto;
+  padding: 0.5rem 0.9rem;
+  margin-left: 1.75rem;
+}
+hr {
+  width: 70%;
+  margin-left: 3rem;
+}
+.design_description p {
+  font-size: 0.85rem;
+  padding: 1rem 2rem;
+  text-align: left;
+}
+.card-hover_effect {
+  background-color: transparent;
+  transition: all 0.4s;
+}
+.card-hover_effect:hover {
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
+  transition: scale(1.1);
+  background-color: transparent;
+}
+label {
+  font-size: 1rem !important;
+}
+/* progress bar styles */
+.progress-blocks {
+  margin-top: 5rem;
+}
+.progress {
+  background-color: #d8d8d8;
+  border-radius: 20px;
+  position: relative;
+  margin: 15px 0;
+  height: 30px;
+  width: 300px;
+}
+
+.progress-done {
+  background: #f10956;
+  box-shadow: 0 3px 3px -5px #f2709c, 0 2px 5px #f2709c;
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: 1s ease 0.3s;
+}

@@ -1,0 +1,44 @@
+footer {
+  background-color: #252525;
+  color: #fff;
+  margin-top: 5rem;
+}
+.footer_head {
+  text-align: center;
+}
+.footer_head h3 {
+  font-size: 1.75rem;
+  margin-top: 2rem;
+}
+.footer_head h4 {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+.footer_head p {
+  font-size: 0.75rem;
+  margin-top: 2rem;
+  font-weight: 500;
+}
+.made_bootstrap {
+  display: block;
+}
+.footer_social-links {
+  text-align: left;
+  margin-bottom: 1rem !important;
+}
+.footer_social-links a i {
+  text-decoration: none !important;
+  font-size: 1.75rem;
+  color: #f10956;
+  margin: 1rem;
+}
+@media screen and (min-width: 100px) and (max-width: 580px){
+  .footer_head h3 {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+.footer_head h4 {
+  font-size: 0.75rem;
+  margin-top: 2rem;
+}
+}

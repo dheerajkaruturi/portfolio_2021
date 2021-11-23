@@ -1,0 +1,161 @@
+.hero-home__section {
+  margin-top: 1rem;
+}
+.hero-intro_container {
+  margin-top: 2.5rem;
+}
+.hero-intro_welcome {
+  font-size: 0.75rem;
+  width: 100%;
+  padding: 0.2rem 0.55rem;
+  margin-top: 1rem;
+  margin-bottom: 1.75rem;
+  border-bottom: 1px solid #2c2c2c;
+  font-weight: 500;
+}
+.hero-intro_welcome span{
+  font-size: 1rem;
+  font-size: 500;
+}
+.hero-name {
+  color: #f10956;
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+.hero-title {
+  height: 4.1rem;
+  width: 25.5rem;
+  overflow: hidden;
+  margin-top: 2rem;
+  border: 3px solid black;
+  border-radius: 2rem;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.hero-title:hover {
+  background-color: #f10956;
+  border: 3px solid #f10956;
+  color: #fff;
+}
+.hero-title_wrapper {
+  height: 100%;
+  animation: change 2.5s ease-in infinite alternate;
+}
+@keyframes change {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-61px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-61px);
+  }
+}
+.hero-title_item {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  justify-content: center;
+}
+.hero-img_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-img_picture {
+  height: 24rem;
+  width: auto;
+  margin-top: 5.75rem;
+  border-radius: 50px; 
+}
+.hero-buttons {
+  margin-top: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
+}
+
+.butn-download {
+  background-color: #f7256b;
+  padding: 4px 10px;
+  color: #fff !important;
+  border-radius: 1rem;
+  transition: all 0.5s;
+}
+.butn-download:hover {
+  transform: scale(1.02) translateY(-3px);
+  box-shadow: 3px 3px 10px -1px rgba(247, 37, 107, 0.55);
+}
+.butn-know_more {
+  background-color: #f7f7f7;
+  text-decoration: underline;
+  padding: 4px 10px;
+  transition: all 0.5s;
+}
+.butn-know_more:hover {
+  color: #f10956 !important;
+}
+
+@media screen and (min-width: 100px) and (max-width: 770px) {
+  .hero-home__section {
+    margin-top: 5rem;
+  }
+  .hero-img_container {
+    margin-top: 1.5rem;
+  }
+  .hero-title {
+    height: 3.3rem;
+    width: 20rem;
+    overflow: hidden;
+    margin-top: 2rem;
+    border: none;
+    background-color: #f10956;
+    border-radius: 2rem;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .hero-title:hover {
+    background-color: #f10956;
+    border: 3px solid #f10956;
+    color: #fff;
+  }
+  .hero-title_wrapper {
+    height: 100%;
+    animation: change 2.5s ease-in infinite alternate;
+  }
+  .hero-title_item {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 500;
+    justify-content: center;
+    color: #fff;
+  }
+  @keyframes change {
+    0% {
+      transform: translateY(0px);
+    }
+    25% {
+      transform: translateY(0px);
+      opacity: 0;
+    }
+    50% {
+      transform: translateY(-47px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(-47px);
+    }
+  }
+  .hero-img_picture {
+    height: 17rem;
+    width: auto;
+  }
+}

@@ -1,0 +1,71 @@
+.projects-section {
+  margin-top: 2rem;
+}
+.project-section__title {
+  font-size: 2rem;
+}
+.project-section__title::before {
+  margin-top: 2rem;
+}
+.project-section__title p::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 4rem;
+  background-color: #f10956;
+}
+.project-section__title span {
+  font-size: 3.15rem;
+  text-transform: uppercase;
+  color: #f10956;
+}
+.projects-section__intro {
+  font-size: 0.9rem;
+  text-align: center;
+}
+.App__flex-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+.App__img img {
+  height: 15rem;
+  width: 100%;
+  vertical-align: middle;
+}
+.App__flex-container:hover .App__img img {
+  filter: contrast(90%);
+}
+.App__img {
+  background-position: center center;
+  background-size: cover;
+  filter: contrast(100%);
+}
+.description__title {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.App-button {
+  text-align: center;
+  margin: 1.25rem;
+  margin-bottom: 2.75rem;
+}
+.button__App-link {
+  text-decoration: none;
+  display: block;
+  font-size: 0.85rem;
+  text-align: center;
+  color: #fff;
+  padding: 0.9rem 1.5rem;
+  background: #1cc36a;
+  border-radius: 4rem;
+  transition: all 0.3s;
+}
+
+.button__App-link:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.5);
+}
+a:hover {
+  color: #fff;
+}
